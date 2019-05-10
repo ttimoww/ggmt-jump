@@ -8,6 +8,12 @@
   list-style: none;
 }
 
+.page-main{
+  @media @mq-m{
+    margin-top: 100px;
+  }
+}
+
 .bg-box{
   .radius10;
   background: #f9f9f9;
@@ -5553,7 +5559,9 @@ div.nav-sections-item-content {
 		background-size: auto 55px;
 		background-position: 90px 0;
 		background: @white;
-		z-index: 150;
+    z-index: 150;
+    position: fixed;
+    top: 0px !important;
 		.header {
 			&.panel {
 				border-top: 2px solid @beige;
@@ -5565,8 +5573,6 @@ div.nav-sections-item-content {
 			}
 		}
 		&.fixed-header {
-			position: fixed;
-			top: 0 !important;
 			.header.panel,
 			.header.content {
 				padding: 0;
