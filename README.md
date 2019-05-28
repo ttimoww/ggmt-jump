@@ -1,3 +1,9 @@
+## Changes 28-05-19
+
+Fixed the mobile header jump on the other pages. (starting at line 5585).
+
+## Changes 14-05-19
+
 `.fixed-header`: removed `position: fixed` & `top: 0;` (line 5576). 
 
 
